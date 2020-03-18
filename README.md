@@ -1,6 +1,6 @@
 ```css
-Kibana URL: kibana-url
-Username: username
-Password: password
-Elasticsearch API Endpoint: api-endpoint
+Kibana URL: _PLACEHOLDER_KIBANA_URL_
+Username: _PLACEHOLDER_USERNAME_
+Password: _PLACEHOLDER_PASSWORD_
+Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 ```
