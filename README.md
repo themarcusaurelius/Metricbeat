@@ -47,13 +47,31 @@ tar xzvf filebeat-6.5.4-linux-x86_64.tar.gz
 
 2) Configure Metricbeat
 
-To configure Metricbeat, you edit the configuration file. The default configuration file is called ```metricbeat.yml```.
-
 Open the ```metricbeat.yml```.
 
 ```
 sudo vi /etc/metricbeat/metricbeat.yml
 ```
+
+Add the proper credentials to the Kibana and Elasticsearch sections of the ```metricbeat.yml``` file. 
+
+<b>Kibana:</b>
+
+```
+setup.kibana
+  host: "_PLACEHOLDER_KIBANA_URL_"
+  username: "_PLACEHOLDER_USERNAME_"
+  password: "_PLACEHOLDER_PASSWORD_"
+```
+
+<b>Elasticsearch Output:</b>
+
+```
+output.elasticsearch
+  hosts: ["_PLACEHOLDER_API_ENDPOINT_"]
+```
+
+
 
 
 
