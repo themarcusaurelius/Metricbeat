@@ -11,7 +11,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 1. As administrator, enter the following command in Powershell
 
 ```
-Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/windows-monitoring/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\windows-monitoring-master.zip'
+Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/Metricbeat/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\windows-monitoring-master.zip'
 ```
 
 2. Unzip the package and extract the contents to the `C:/` drive.
