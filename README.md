@@ -18,7 +18,7 @@ Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 
 ##### Linux:
 
-To install and configure Metricbeat, enter the following into your console. Make sure you are using elevated privileges for the install.
+To install and configure Metricbeat on linux servers, enter the following into your console. Make sure you are using elevated privileges for the install.
 
 ````CSS
 curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh _PLACEHOLDER_API_ENDPOINT_
@@ -32,7 +32,7 @@ For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/m
 
 <br>
 
-- <b>Option 2)</b> Download and install beats manually.
+#### <b>Option 2)</b> Download and install beats manually.
 
 ##### Windows:
 
