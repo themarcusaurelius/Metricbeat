@@ -36,6 +36,8 @@ Modules available: *Aerospike, Apache, Ceph, Couchbase, Docker, Dropwizard, Elas
 
 For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/metricbeat` or change the configuration at `/etc/metricbeat/metricbeat.yml`.
 
-- Option 1)
+- Option 2) Download and install beats manually
+
+
 
 
