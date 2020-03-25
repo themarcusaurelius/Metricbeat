@@ -16,7 +16,7 @@ Password: _PLACEHOLDER_PASSWORD_
 Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 ```
 
-##### Mac & Linux:
+##### Linux:
 
 To install and configure Metricbeat, enter the following into your console. Make sure you are using elevated privileges for the install.
 
@@ -36,7 +36,7 @@ For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/m
 
 ##### Windows:
 
-##### Mac & Linux
+##### Linux
 
 1) Download and install Metricbeat.
 
@@ -76,8 +76,26 @@ output.elasticsearch
 Change to the directory where the Metricbeat binary is installed, and run Metricbeat in the foreground with the following options specified:
 
 ```
-./metricbeat test config -e
+metricbeat test config -e
 ```
+
+If you do not see any ERROR messages, than the configuration is correct.
+
+4. Set up the Kibana Dashboards:
+
+```
+metricbeat setup --dashboards
+```
+
+5. Start Metricbeat
+
+```
+service metricbeat start
+```
+
+
+
+
 
 
 
