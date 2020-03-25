@@ -71,6 +71,16 @@ output.elasticsearch
   hosts: ["_PLACEHOLDER_API_ENDPOINT_"]
 ```
 
+3. Test the configuration:
+
+Change to the directory where the Metricbeat binary is installed, and run Metricbeat in the foreground with the following options specified:
+
+```
+./metricbeat test config -e
+```
+
+
+
 
 
 
