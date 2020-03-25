@@ -3,11 +3,11 @@
 Metricbeat is a lightweight shipper for metric data, that will send system data and metrics to your Vizion Elastic app. [more](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-overview.html)
 From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightweight way to send system and service statistics.
 
-#### Installation
+### Installation:
 
 - Option 1) Use automated plug-in scripts
 
-##### Windows
+##### Windows:
 
 ```css
 Kibana URL: _PLACEHOLDER_KIBANA_URL_
@@ -16,7 +16,7 @@ Password: _PLACEHOLDER_PASSWORD_
 Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 ```
 
-##### Mac & Linux
+##### Mac & Linux:
 
 To install and configure Metricbeat, enter the following into your console. Make sure you are using elevated privileges for the install.
 
@@ -35,5 +35,7 @@ Modules available: *Aerospike, Apache, Ceph, Couchbase, Docker, Dropwizard, Elas
 **You should now be sending data to your Vizion Elastic app. View it in [Kibana](https://app.vizion.ai/app/kibana)**
 
 For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/metricbeat` or change the configuration at `/etc/metricbeat/metricbeat.yml`.
+
+- Option 1)
 
 
