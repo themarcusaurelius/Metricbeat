@@ -21,8 +21,8 @@ Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 
 To install and configure Metricbeat, enter the following into your console along with the url given to you when you created your Vizion Elastic app. Make sure you are using elevated privileges for the install.
 
-````
-curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh << your Vizion Elastic url here >>
+````CSS
+curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh _PLACEHOLDER_API_ENDPOINT_
 ````
     
 The intallation script will prompt you to select the proper environment, then will install and complete basic configuration automatically.
