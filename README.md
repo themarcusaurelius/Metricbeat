@@ -19,3 +19,22 @@ Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 
 ##### Linux
 
+To install and configure Metricbeat, enter the following into your console along with the url given to you when you created your Vizion Elastic app. Make sure you are using elevated privileges for the install.
+
+````
+curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh << your Vizion Elastic url here >>
+````
+    
+The intallation script will prompt you to select the proper environment, then will install and complete basic configuration automatically.
+
+To enable a module, enter `metricbeat modules enable << module name >>` or `./metricbeat modules enable << module name >>`
+
+Modules available: *Aerospike, Apache, Ceph, Couchbase, Docker, Dropwizard, Elasticsearch, envoyproxy, Etcd, Golang, Graphite, HAProxy, HTTP, Jolokia, Kafka, Kibana, Kubernetes, kvm, Logstash, Memcached, MongoDB, Munin, MySQL, Nginx, PHP_FPM, PostgreSQL, Prometheus, RabbitMQ, Redis, System, traefik, uwsgi, vSphere, Windows, ZooKeeper*
+
+[More on Metricbeat modules](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-modules.html)
+
+**You should now be sending data to your Vizion Elastic app. View it in [Kibana](https://app.vizion.ai/app/kibana)**
+
+For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/metricbeat` or change the configuration at `/etc/metricbeat/metricbeat.yml`.
+
+
