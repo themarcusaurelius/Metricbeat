@@ -32,7 +32,7 @@ For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/m
 
 <br>
 
-#### <b>Option 2)</b> Download and install beats manually.
+#### <b>Option 2.</b> Download and install beats manually.
 
 ##### Windows:
 
