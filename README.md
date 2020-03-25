@@ -5,7 +5,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ### Installation:
 
-#### <b>Option 1.</b> Use automated plug-in scripts.
+#### <b>Option 1.</b> Automated Installation.
 
 ##### Windows:
 
@@ -50,7 +50,7 @@ The installation script will prompt you to select the proper environment, then w
 
 <br>
 
-#### <b>Option 2.</b> Download and install beats manually.
+#### <b>Option 2.</b> Manual Installation.
 
 ##### Windows:
 
