@@ -29,7 +29,7 @@ Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 
 This will install and run metricbeat.
 
-**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for the incoming logs**
+**Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
 <hr>
 
@@ -43,7 +43,7 @@ curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-
     
 2. When prompted, select the proper environment to complete the installation.
 
-**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for the incoming logs**
+**Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
 <hr>
 
