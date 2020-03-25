@@ -1,4 +1,4 @@
-## Metricbeat - A lightweight shipper for system Metrics.
+## Metricbeat - A Lightweight Shipper For System Metrics.
 
 From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightweight way to send system and service statistics to your Vizion Elastic app.
 
