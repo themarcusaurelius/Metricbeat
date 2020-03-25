@@ -9,17 +9,19 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ##### Windows:
 
-To install and configure Metricbeat on Windows servers, enter the following command in an administrative Powershell:
+<b>1. Install and configure Metricbeat</b>
+
+As administrator, enter the following command in Powershell
 
 ```
 Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/windows-monitoring/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\windows-monitoring-master.zip'
 ```
 
-2. Unzip the package and extract the contents to the `C:/` drive.
+<b>2. Unzip the package and extract the contents to the `C:/` drive.</b>
 
-3. Open the extracted folder and double click on the `metricbeatInstall.exe`.
+<b>3. Open the extracted folder and double click on the `metricbeatInstall.exe`.</b>
 
-4. When prompted, enter your credentials below and click OK.
+<b>4. When prompted, enter your credentials below and click OK.</b>
 
 ```css
 Kibana URL: _PLACEHOLDER_KIBANA_URL_
@@ -34,7 +36,7 @@ This will install and run metricbeat.
 
 ##### Linux:
 
-1. !nstall and configure Metricbeat
+<b>1. Install and configure Metricbeat</b>
 
 Enter the following script into the console. Make sure you are using elevated privileges for the install.
 
