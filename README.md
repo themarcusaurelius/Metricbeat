@@ -51,9 +51,17 @@ curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.
 tar xzvf filebeat-6.5.4-linux-x86_64.tar.gz
 ```
 
-2) Configure Metricbeat ]
-`
+2) Configure Metricbeat
+
 To configure Metricbeat, you edit the configuration file. The default configuration file is called ```metricbeat.yml```.
+
+Open the ```metricbeat.yml```.
+
+```
+sudo vi /etc/metricbeat/metricbeat.yml
+```
+
+
 
 
 
