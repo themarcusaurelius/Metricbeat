@@ -5,10 +5,9 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 #### Installation
 
-1. Option <b>A</b> Automatic Installation
+- Option 1) Use automated plug-in scripts
 
 ##### Windows
-
 
 ```css
 Kibana URL: _PLACEHOLDER_KIBANA_URL_
