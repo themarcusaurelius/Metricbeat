@@ -193,7 +193,7 @@ Change to the directory where the Metricbeat binary is installed, and run Metric
 metricbeat test config -e
 ```
 
-If you do not see any ERROR messages, than the configuration is correct.
+<i>If you do not see any ERROR messages, than the configuration is correct.</i>
 
 4. Set up the Kibana Dashboards:
 
