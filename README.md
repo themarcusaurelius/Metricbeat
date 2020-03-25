@@ -53,7 +53,7 @@ curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-
 
 1. Download Metricbeat.
 
-[Download](https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-oss-6.5.4-windows-x86_64.zip)
+   [Download](https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-oss-6.5.4-windows-x86_64.zip)
 
 2. Extract the contents of the zip file into the ```C:\``` drive.
 
