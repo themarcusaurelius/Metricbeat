@@ -9,6 +9,18 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ##### Windows:
 
+To install and configure Metricbeat on Windows servers, enter the following in an administrative powershell:
+
+```
+Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/windows-monitoring/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\windows-monitoring-master.zip'
+```
+
+2. Unzip the package and extract the contents to the `C:/` drive.
+
+3. Open the extracted folder and double click on the `metricbeatInstall.exe`.
+
+4. When prompted, enter your credentials below and click OK.
+
 ```css
 Kibana URL: _PLACEHOLDER_KIBANA_URL_
 Username: _PLACEHOLDER_USERNAME_
@@ -16,9 +28,13 @@ Password: _PLACEHOLDER_PASSWORD_
 Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 ```
 
+**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for data**
+
 ##### Linux:
 
-To install and configure Metricbeat on linux servers, enter the following into your console. Make sure you are using elevated privileges for the install.
+1. !nstall and configure Metricbeat
+
+Enter the following script into the console. Make sure you are using elevated privileges for the install.
 
 ````CSS
 curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh _PLACEHOLDER_API_ENDPOINT_
