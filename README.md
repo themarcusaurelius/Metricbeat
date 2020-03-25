@@ -38,7 +38,7 @@ For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/m
 
 ##### Mac & Linux
 
-1) Download and install the beat.
+1) Download and install Metricbeat.
 
 ```
 curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.5.4-linux-x86_64.tar.gz
