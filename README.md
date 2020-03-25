@@ -28,7 +28,9 @@ Password: _PLACEHOLDER_PASSWORD_
 Elasticsearch API Endpoint: _PLACEHOLDER_API_ENDPOINT_
 ```
 
-**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for data**
+This will install and run metricbeat.
+
+**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for the incoming logs**
 
 ##### Linux:
 
@@ -42,7 +44,7 @@ curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-
     
 The installation script will prompt you to select the proper environment, then will install and complete the basic configuration automatically.
 
-**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for data**
+**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for the incoming logs**
 
 <br>
 
