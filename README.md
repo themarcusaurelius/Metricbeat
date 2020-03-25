@@ -129,7 +129,7 @@ start-service metricbeat
 
 ### Linux
 
-1) Download and install Metricbeat by choosing your system.
+1. Download and install Metricbeat by choosing your system.
 
   <b>Debian</b>
 
@@ -159,17 +159,15 @@ curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.
 tar xzvf filebeat-6.5.4-linux-x86_64.tar.gz
 ```
 
-2) Configure Metricbeat. 
-
-Open the ```metricbeat.yml```.
+2. Configure Metricbeat by opening the ```metricbeat.yml```.
 
 ```
 sudo vi /etc/metricbeat/metricbeat.yml
 ```
 
-Add the proper credentials to the Kibana and Elasticsearch sections of the ```metricbeat.yml``` file. 
+3. Add the proper credentials to the Kibana and Elasticsearch sections of the ```metricbeat.yml``` file. 
 
-<b>Kibana:</b>
+  <b>Kibana:</b>
 
 ```
 setup.kibana
@@ -178,7 +176,7 @@ setup.kibana
   password: "_PLACEHOLDER_PASSWORD_"
 ```
 
-<b>Elasticsearch Output:</b>
+  <b>Elasticsearch Output:</b>
 
 ```
 output.elasticsearch
@@ -187,7 +185,7 @@ output.elasticsearch
 
 3. Test the configuration:
 
-Change to the directory where the Metricbeat binary is installed, and run Metricbeat in the foreground with the following options specified:
+   Change to the directory where the Metricbeat binary is installed, and run Metricbeat in the foreground with the following options    specified:
 
 ```
 metricbeat test config -e
