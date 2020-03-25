@@ -5,7 +5,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ### Installation:
 
-- <b>Option 1)</b> Use automated plug-in scripts
+- <b>Option 1)</b> Use automated plug-in scripts.
 
 ##### Windows:
 
@@ -38,7 +38,28 @@ For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/m
 
 <br>
 
-- <b>Option 2)</b> Download and install beats manually
+- <b>Option 2)</b> Download and install beats manually.
+
+##### Windows:
+
+##### Mac & Linux
+
+1) Download and install the beat.
+
+```
+curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.5.4-linux-x86_64.tar.gz
+tar xzvf filebeat-6.5.4-linux-x86_64.tar.gz
+```
+
+2) Configure Metricbeat ]
+`
+To configure Metricbeat, you edit the configuration file. The default configuration file is called ```metricbeat.yml```.
+
+
+
+
+
+
 
 
 
