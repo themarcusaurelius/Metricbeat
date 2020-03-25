@@ -8,7 +8,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ### Windows:
 
-1. Install and configure Metricbeat. As administrator, enter the following command in Powershell
+1. As administrator, enter the following command in Powershell
 
 ```
 Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/windows-monitoring/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\windows-monitoring-master.zip'
@@ -35,17 +35,17 @@ This will install and run metricbeat.
 
 ### Linux:
 
-1. Install and configure Metricbeat. Enter the following script into the console using elevated privileges
+1. Enter the following script into the console using elevated privileges
 
 ````CSS
 curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh _PLACEHOLDER_API_ENDPOINT_
 ````
     
-2. When prompted, select the proper environment to complete the basic configuration automatically.
+2. When prompted, select the proper environment to complete the installation.
 
 **You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for the incoming logs**
 
-<br>
+<hr>
 
 #### <b>Option 2.</b> Manual Installation.
 
