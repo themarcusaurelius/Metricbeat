@@ -2,7 +2,9 @@
 
 Collect metrics from your systems and services. From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightweight way to send system and service statistics.
 
+#### Installation
 
+##### Windows
 
 
 ```css
