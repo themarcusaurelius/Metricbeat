@@ -9,7 +9,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ##### Windows:
 
-To install and configure Metricbeat on Windows servers, enter the following in an administrative powershell:
+To install and configure Metricbeat on Windows servers, enter the following command in an administrative Powershell:
 
 ```
 Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/windows-monitoring/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\windows-monitoring-master.zip'
