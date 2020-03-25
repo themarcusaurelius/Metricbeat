@@ -131,28 +131,28 @@ start-service metricbeat
 
 1) Download and install Metricbeat by choosing your system.
 
-Debian
+  Debian
 
 ```
 curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.6.1-amd64.deb
 sudo dpkg -i metricbeat-7.6.1-amd64.deb
 ```
 
-RPM
+  RPM
 
 ```
 curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.6.1-x86_64.rpm
 sudo rpm -vi metricbeat-7.6.1-x86_64.rpm
 ```
 
-Mac 
+  Mac 
 
 ```
 curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.6.1-darwin-x86_64.tar.gz
 tar xzvf metricbeat-7.6.1-darwin-x86_64.tar.gz
 ```
 
-Tar/Linux:
+  Tar/Linux:
 
 ```
 curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.5.4-linux-x86_64.tar.gz
