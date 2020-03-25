@@ -40,7 +40,7 @@ $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.
 
 if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
     #Change Directory to metricbeat
-    Set-Location -Path 'c:\metricbeat-master\metribeat'
+    Set-Location -Path 'c:\Metricbeat-master\metricbeat'
 
     #Stops metricbeat from running
     Stop-Service -Force metricbeat
@@ -53,7 +53,7 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
 
     'Uninstalling metricbeat Now...'
 
-    $Target = "C:\metricbeat-master"
+    $Target = "C:\Metricbeat-master"
 
     Get-ChildItem -Path $Target -Recurse -force |
         Where-Object { -not ($_.pscontainer)} |
