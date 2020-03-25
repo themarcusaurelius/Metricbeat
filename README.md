@@ -7,7 +7,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 #### <b>Option 1.</b> Automated Installation.
 
-#### Windows:
+### Windows:
 
 1. Install and configure Metricbeat
 
@@ -34,9 +34,9 @@ This will install and run metricbeat.
 
 **You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for the incoming logs**
 
-<br>
+<hr>
 
-#### Linux:
+### Linux:
 
 1. Install and configure Metricbeat
 
