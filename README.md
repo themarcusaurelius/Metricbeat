@@ -5,7 +5,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ### Installation:
 
-- Option 1) Use automated plug-in scripts
+- <b>Option 1)<b/> Use automated plug-in scripts
 
 ##### Windows:
 
@@ -36,7 +36,7 @@ Modules available: *Aerospike, Apache, Ceph, Couchbase, Docker, Dropwizard, Elas
 
 For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/metricbeat` or change the configuration at `/etc/metricbeat/metricbeat.yml`.
 
-- Option 2) Download and install beats manually
+- <b>Option 2)</b> Download and install beats manually
 
 
 
