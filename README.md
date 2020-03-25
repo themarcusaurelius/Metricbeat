@@ -186,6 +186,8 @@ metricbeat setup --dashboards
 service metricbeat start
 ```
 
+**Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
+
 
 
 
