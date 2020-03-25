@@ -152,7 +152,7 @@ curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.
 tar xzvf metricbeat-7.6.1-darwin-x86_64.tar.gz
 ```
 
-  <b>Tar/Linux:<b/>
+  <b>Tar/Linux:</b>
 
 ```
 curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.5.4-linux-x86_64.tar.gz
