@@ -26,7 +26,7 @@ curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-
     
 The installation script will prompt you to select the proper environment, then will install and complete the basic configuration automatically.
 
-**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab**
+**You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab for data**
 
 <br>
 
