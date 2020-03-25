@@ -51,7 +51,7 @@ curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-
 
 ### Windows:
 
-1. Download the Metricbeat.
+1. Download Metricbeat.
 
 ```
 https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-oss-6.5.4-windows-x86_64.zip
