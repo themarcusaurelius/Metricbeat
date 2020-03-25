@@ -28,8 +28,6 @@ The installation script will prompt you to select the proper environment, then w
 
 **You should now be sending data to your Vizion Elastic app. Check the ```Discover``` tab**
 
-For debugging, you can view your Metricbeat error logs at `/var/log/metricbeat/metricbeat` or change the configuration at `/etc/metricbeat/metricbeat.yml`.
-
 <br>
 
 #### <b>Option 2.</b> Download and install beats manually.
