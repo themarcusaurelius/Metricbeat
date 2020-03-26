@@ -173,7 +173,7 @@ sudo vi /etc/metricbeat/metricbeat.yml
 
   <b>Kibana:</b>
 
-```
+```yaml
 setup.kibana
   host: "_PLACEHOLDER_KIBANA_URL_"
   username: "_PLACEHOLDER_USERNAME_"
@@ -182,7 +182,7 @@ setup.kibana
 
   <b>Elasticsearch Output:</b>
 
-```
+```yaml
 output.elasticsearch
   hosts: ["_PLACEHOLDER_API_ENDPOINT_"]
 ```
