@@ -16,7 +16,11 @@ Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/Metricbeat/arch
 
 2. Unzip the package and extract the contents to the `C:/` drive.
 
-3. Open the extracted folder and double click on the `metricbeatInstall.exe`.
+3. Back in Powershell, CD into the extracted folder and run the following script:
+
+```
+.\installMetricbeat.ps1
+```
 
 4. When prompted, enter your credentials below and click OK.
 
