@@ -8,7 +8,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ### Windows:
 
-1. As administrator, enter the following command in Powershell
+1. As administrator, enter the following command in Powershell or download the zip file here.
 
 ```
 Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/Metricbeat/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\Metricbeat.zip'
@@ -16,7 +16,11 @@ Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/Metricbeat/arch
 
 2. Unzip the package and extract the contents to the `C:/` drive.
 
-3. Open the extracted folder and double click on the `metricbeatInstall.exe`.
+3. Back in Powershell, CD into the extracted folder and run the following script:
+
+```
+.\installMetricbeat.ps1
+```
 
 4. When prompted, enter your credentials below and click OK.
 
@@ -37,7 +41,7 @@ This will install and run metricbeat.
 
 1. Enter the following script into the console using elevated privileges
 
-````CSS
+````Linux
 curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-metricbeat.sh > install-config-metricbeat.sh; chmod a+x  install-config-metricbeat.sh; ./install-config-metricbeat.sh _PLACEHOLDER_API_ENDPOINT_
 ````
     
@@ -73,7 +77,7 @@ curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-
 
 <b>Kibana:</b>
 
-```
+```yaml
 setup.kibana
   host: "_PLACEHOLDER_KIBANA_URL_"
   username: "_PLACEHOLDER_USERNAME_"
@@ -82,7 +86,7 @@ setup.kibana
 
 <b>Elasticsearch Output:</b>
 
-```
+```yaml
 output.elasticsearch
   hosts: ["_PLACEHOLDER_API_ENDPOINT_"]
 ```
