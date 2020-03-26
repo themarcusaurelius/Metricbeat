@@ -51,7 +51,7 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
     #Change Directory to metricbeat5
     Set-Location -Path 'c:\'
 
-    'Uninstalling metricbeat Now...'
+    "`nUninstalling Metricbeat Now..."
 
     $Target = "C:\Metricbeat-master"
 
@@ -60,6 +60,11 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
             Remove-Item -Force -Recurse
 
     Remove-Item -Recurse -Force $Target
+
+    "`nMetricbeat Uninstall Successful."
+
+    #Close Powershell window
+    Stop-Process -Id $PID
 }
 else {
     Start-Process -FilePath "powershell" -ArgumentList "$('-File ""')$(Get-Location)$('\')$($MyInvocation.MyCommand.Name)$('""')" -Verb runAs
