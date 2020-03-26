@@ -9,7 +9,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ### Windows:
 
-1. As administrator, enter the following command in Powershell or download the zip file here.
+1. As administrator, enter the following command in Powershell or download the zip file [here](https://github.com/themarcusaurelius/Metricbeat/archive/master.zip).
 
 ```
 Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/Metricbeat/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\Metricbeat.zip'
