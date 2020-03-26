@@ -4,6 +4,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ### Installation:
 <br>
+
 #### <b>Option 1.</b> Automated Installation.
 
 ### Windows:
