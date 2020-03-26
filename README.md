@@ -4,6 +4,7 @@ From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightwei
 
 ### Installation:
 
+
 #### <b>Option 1.</b> Automated Installation.
 
 ### Windows:
@@ -173,7 +174,7 @@ sudo vi /etc/metricbeat/metricbeat.yml
 
   <b>Kibana:</b>
 
-```
+```yaml
 setup.kibana
   host: "_PLACEHOLDER_KIBANA_URL_"
   username: "_PLACEHOLDER_USERNAME_"
@@ -182,7 +183,7 @@ setup.kibana
 
   <b>Elasticsearch Output:</b>
 
-```
+```yaml
 output.elasticsearch
   hosts: ["_PLACEHOLDER_API_ENDPOINT_"]
 ```
