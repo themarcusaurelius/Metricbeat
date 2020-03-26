@@ -3,7 +3,7 @@
 From CPU to memory, Redis to NGINX, and much much more, Metricbeat is a lightweight way to send system and service statistics to your Vizion Elastic app.
 
 ### Installation:
-
+<br>
 #### <b>Option 1.</b> Automated Installation.
 
 ### Windows:
