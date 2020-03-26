@@ -39,6 +39,8 @@ Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope Process
 $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
 
 if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Set-ExecutionPolicy Unrestricted
+
     #Change Directory to metricbeat
     Set-Location -Path 'c:\Metricbeat-master\metricbeat'
 
