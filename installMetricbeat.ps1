@@ -179,6 +179,9 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
     #Show that metricbeat is running
     Get-Service metricbeat
 
+
+    "`nMetricbeat Started. Check Kibana For The Incoming Data!"
+
     #Close Powershell window
     Stop-Process -Id $PID
 
