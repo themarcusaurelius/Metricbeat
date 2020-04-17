@@ -49,6 +49,14 @@ This will install and run metricbeat.
 
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
+<hr>
+
+## Example Dashboard
+
+The dashboards are provided as examples. We recommend that you customize them to meet your needs.
+
+![Imgur](https://imgur.com/lDxTuV4.jpg)
+
 
 
 
