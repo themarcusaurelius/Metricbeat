@@ -45,6 +45,8 @@ curl https://olympus-io.github.io/vizion.ai/beat-install-scripts/install-config-
     
 2) When prompted, select the proper environment to complete the installation.
 
+This will install and run metricbeat.
+
 **Data should now be shipping to your Vizion Elastic app. Check the ```Discover``` tab in Kibana for the incoming logs**
 
 
